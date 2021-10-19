@@ -18,3 +18,8 @@ Repository structure:
 ```
 
 All top-level scripts generate data or results.
+
+## Requirements
+
+The recommended Julia version is 1.6, the `Project.toml` and `Manifest.toml` should be used to instantiate the environment.
+The Python plotting script was run on Python 3.7.9 with matplotlib 3.3.3.
