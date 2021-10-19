@@ -11,7 +11,7 @@ If `wget` or `unzip` are not available for you, download `data.zip` from the URL
 Repository structure:
 
 ```
-├── data # raw instance data
+├── data # raw instance data obtained from get_data_instances.sh
 ├── Images # Final images
 ├── plotting # Plotting script
 └── results # result JSON files
