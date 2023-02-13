@@ -1,8 +1,10 @@
 # Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions
 
-Repository for the paper "Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions" accepted at NeurIPS 2021.
+Repository for the paper "Simple steps are all you need: Frank-Wolfe and generalized self-concordant functions", NeurIPS 2021.
 
-Find the preprint [here](https://arxiv.org/abs/2105.13913).
+Find the preprint [here](https://arxiv.org/abs/2105.13913), cite with the `CITATION.bib` entry.
+
+The step sizes developed in the paper are available in the [FrankWolfe.jl](https://github.com/ZIB-IOL/FrankWolfe.jl) package as `MonotonicStepSize` and `MonotonicGenericStepsize`.
 
 Due to their large size, the raw instance data files are not included in the repository but available on the [Zenodo](https://doi.org/10.5281/zenodo.4836008) archive.
 Run the `get_data_instances.sh` bash script (or equivalent on your system) to fetch them.
